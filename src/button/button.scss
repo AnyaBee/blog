@@ -1,0 +1,28 @@
+.button {
+  background-color: $blue;
+  color: $white;
+  padding: 5px 10px;
+  border: none;
+}
+
+.button:hover {
+  background-color: $blue-dark;
+}
+
+.featured-button {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  content: '';
+}
+
+//.button__icon {
+//  padding-top:3px;
+//}
+
+.search__button {
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,29 @@
+.blog-post {
+  padding: 15px;
+  width: 75%;
+  background-color: $white;
+  position: relative;
+}
+
+.blog-post__title {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.blog-post__date {
+  font-style: italic;
+}
+
+.blog-post__author {
+  font-style: italic;
+}
+
+.blog-post__comments {
+  font-style: italic;
+}
+
+.blog-post__icon {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 5px;
+}
