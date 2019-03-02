@@ -5,6 +5,12 @@
   position: relative;
 }
 
+.blog-post p {
+  padding: 0 15px;
+  line-height: 30px;
+  text-align: justify;
+}
+
 .blog-post__title {
   font-size: 32px;
   text-transform: uppercase;
@@ -26,4 +32,16 @@
   display: inline-block;
   margin-left: 15px;
   margin-right: 5px;
+}
+
+.blog-post__featured-button {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  content: '';
+}
+
+.blog-post__button {
+  margin-left: 5px;
+
 }

@@ -9,7 +9,9 @@ class Post extends Component {
   render() {
     return(
       <article className='blog-post'>
-        < Button />
+        <Button className='blog-post__featured-button' text='Featured' />
+        <Button className='blog-post__button' text='Edit' />
+        <Button className='blog-post__button' text='Delete' />
         <h2 className='blog-post__title'>Title of the post</h2>
         <img className='blog-post__icon' src={calendar} alt='calendar' width='15'/>
         <span className='blog-post__date'>December 29, 2013</span>

@@ -9,7 +9,11 @@
 @import 'archive/archive';
 @import 'button/button.scss';
 @import 'search/search.scss';
+@import 'modal/modal.scss';
 
+* {
+  box-sizing: border-box;
+}
 body {
   margin: auto;
   padding: 0;
@@ -19,9 +23,9 @@ body {
   //  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $primaryColor;
-  //background-color: $white;
-  color: $black;
+  //background-color: $primaryColor;
+  background-color: $white;
+  color: $grey;
 }
 
 code {

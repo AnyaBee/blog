@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from '../navigation/navigation';
 import Promo from '../promo/promo';
-import Search from '../search/search';
 import ContentBlock from '../ContentBlock/ContentBlock';
 
 import '../../node_modules/normalize.css/normalize.css';

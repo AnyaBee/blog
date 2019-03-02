@@ -5,10 +5,10 @@ class Archive extends Component {
     return(
       <section className='archive'>
         <h2>Archivelist</h2>
-        <span>December 2018(1)</span>
-        <span>November 2018(2)</span>
-        <span>October 2018(3)</span>
-        <span>September 2018(2)</span>
+        <div>December 2018(1)</div>
+        <div>November 2018(2)</div>
+        <div>October 2018(3)</div>
+        <div>September 2018(2)</div>
       </section>
   )
   }

@@ -21,11 +21,21 @@
   align-items: flex-start;
 }
 
+.navigation__link--button{
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+  padding-right: 20px !important;
+
+}
+
 .navigation__link--button::after {
   content: '';
   position: absolute;
-  top: 18px;
-  border: solid black;
+  top: 8px;
+  border: solid $white;
   border-width: 0 2px 2px 0;
   padding: 3px;
   transform: rotate(45deg);

@@ -1,11 +1,16 @@
 .search__input {
-  padding: 5px;
-  display: inline-block;
+  padding: 5px 0;
+  display: block;
   border: none;
   vertical-align: top;
+  width: 100%;
 }
 
 .search__container {
   position: relative;
   border: 1px solid grey;
+}
+
+.search__container label {
+  display: block;
 }

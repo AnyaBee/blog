@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import searchIcon from '../assets/images/search.png';
-import calendar from "../assets/images/calendar.png";
 
 class Search extends Component {
   constructor (){
@@ -15,7 +14,6 @@ class Search extends Component {
   }
 
   updateInputValue(evt) {
-    //console.log('11111')
     this.setState({
       inputValue: evt.target.value
     });
@@ -51,7 +49,7 @@ class Search extends Component {
     return (
       <form >
         <div className='search__container'>
-          <label for='search__input'>
+          <label htmlFor='search__input'>
           <input
             className='search__input'
             name='search__input'

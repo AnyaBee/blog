@@ -1,3 +1,20 @@
 .archive {
-  background-color: #001a00;
+  padding: 10px;
+  text-align: left;
+}
+.archive h2 {
+  text-transform: uppercase;
+  position: relative;
+}
+.archive h2::before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  border-bottom: 3px solid green;
+}
+
+.archive div {
+  padding-bottom: 10px;
 }
